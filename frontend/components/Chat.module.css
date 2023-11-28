@@ -1,0 +1,192 @@
+.chat {
+    height: 100%;
+    width: 45.1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat p{
+    font-family: 'Lora', serif;
+    font-size: 1.305rem;
+    line-height: 1.99375rem;
+    letter-spacing: -.22px;
+    font-weight: 350;
+    text-align: start;
+    margin: 0px;
+}
+
+.shortDiv {
+    height: 7%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.chatLogo{
+    background-color:#F5EADC;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 30px;
+    padding: 2px 12px;
+    
+}
+
+.chatLogo h3{
+    font-family: 'Lora', serif;
+    color: #0D3C26;
+    margin: 0px;
+}
+
+.inputText{
+    flex-grow: 1;
+    margin: 0px 5px;
+    border: none;
+    font-family: 'Lora', serif;
+    font-size: 1.305rem;
+}
+
+.iconDiv{
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+
+.iconDiv svg{
+    color: white;
+}
+
+.fullHeightDiv {
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.seiMessage {
+    align-self: flex-start; /* Aligns this div to the left of the parent */
+    width: fit-content; /* Makes the width adjust to content */
+    max-width: 85%;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.seiMessage button{
+    width: fit-content; /* Makes the width adjust to content */
+    margin-top: 10px;
+}
+
+.userMessage {
+    background-color: rgb(223, 203, 177);
+    border-radius: 15px;
+    align-self: flex-end; /* Aligns this div to the right of the parent */
+    width: fit-content; /* Makes the width adjust to content */
+    max-width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Loader Animation */
+.loader {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+.loader div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: black;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.loader div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+.loader div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.loader div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.loader div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+.letterImage{
+    width: 50%;
+    height: auto;
+}
+
+.buttonsC{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttonsC button{
+    margin-right: 10px;
+}
+@keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+@keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+}
+@keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .chat {
+        width: 90%;
+    }
+    .chat p{
+        font-size: 1.105rem;
+    }
+    .fullHeightDiv {
+        padding: 0px 0px;
+    }
+    .iconDiv{
+        background-color: black;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 1.05rem;
+    }
+    .buttonsC{
+        padding: 0px 10px;
+        justify-content:flex-start;
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "a": {
+        "intructions":"Hold up your dominant hand in a fist, facing outward, with the thumb sticking up to the side of the fist. This resembles the small letter 'a' turned upside down, where the thumb sticking up is akin to the serif on the side of the small letter 'a'."
+    },
+    "b": {
+        "intructions":"Hold up your dominant hand open, with your palm facing out. Keep all four fingers straight and together while tucking your thumb into your palm. This position resembles the small letter 'b'."
+    },
+    "c": {
+        "intructions":"Curve your open, dominant hand to mimic the shape of the letter 'C'. The top four fingers held together form the top curve, while the thumb creates the bottom curve."
+    },
+    "d": {
+        "intructions":"Hold up your dominant hand and curve your middle, ring, and pinkie fingers together, touching them to your thumb. Keep only your index finger standing upright."
+    },
+    "e": {
+        "intructions":"Hold up your dominant hand with the palm facing out. Curve your top four fingers inwards so they touch each other and are tightly curved. Your thumb should also be curved and tightly tucked into your palm, touching the tips of your fingers above."
+    },
+    "f": {
+        "intructions":"Hold up your dominant hand with the palm facing out. Touch your index finger and thumb together to form a circle, while your other three fingers are held up and spread apart. Ensure the circle is clear between your thumb and index finger; if you flatten them too much, it might resemble the sign for the number '9'."
+    },
+    "g": {
+        "intructions":"The letter G is signed by holding out your dominant hand in a fist, with knuckles lined up vertically. Keep your middle, ring, and pinkie fingers curled in, while your index finger and thumb stick out parallel to each other."
+    },
+    "h": {
+        "intructions":"The letter H is signed by holding out your dominant hand horizontally, palm facing in, with your index and middle fingers held out together, straight and stacked horizontally, index at the top. The rest of the fingers and thumb are curled in."
+    },
+    "i": {
+        "intructions":"The letter I is signed by holding up your dominant hand in a fist, palm facing out, with only your pinkie finger sticking up straight."
+    },
+    "j": {
+        "intructions":"Raise your dominant hand with your palm facing outward and curl your fingers into a fist, but extend your pinkie finger out. Use your pinkie to trace the shape of the letter 'J' in the air, starting with the vertical line and then curving upwards to form the bottom hook. Imagine you are dipping your pinkie in a jar of jam to draw the 'J'."
+    },
+    "k": {
+        "intructions":"Hold up your dominant hand with the palm facing out. Extend your index and middle fingers upwards in a 'V' shape, reminiscent of the common 'peace' sign. Tuck your thumb at the base of these two extended fingers. Curl your remaining two fingers in, touching your palm. Note that this is similar to the sign for the letter 'P', except for the 'P' sign, the 'V' shape is pointed downwards."
+    },
+    "l": {
+        "intructions":"Hold up your dominant hand with the palm facing out. Extend your thumb and index finger at a right angle to each other, while curling your last three fingers in towards your palm. This forms the capital letter 'L'."
+    },
+    "m": {
+        "intructions":"Hold up your dominant hand with the palm facing out and curl all your fingers into your palm. Tuck your thumb between your ring and pinkie fingers. This sign resembles the small letter 'm' in cursive, with the bumps of the three fingers mimicking the letter's shape."
+    },
+    "n": {
+        "intructions":"Hold up your dominant hand with the palm facing out, and curl all your fingers into your palm. Tuck your thumb between your middle and ring fingers. This sign resembles the small letter 'n' in cursive, with the bumps of the two fingers mimicking the letter's shape."
+    },
+    "o": {
+        "intructions":"Curve all your fingers and touch them to your thumb, forming the shape of the letter 'O' with your entire hand."
+    },
+    "p": {
+        "intructions":"Sign the letter 'P' similar to the letter 'K', but in an inverted position. Hold your dominant hand down with the palm facing in. Extend your index and middle fingers in an inverted 'V' shape, while tucking your thumb in between these two extended fingers. Curl your remaining two fingers in, touching your palm."
+    },
+    "q": {
+        "intructions":"Sign the letter 'Q' similarly to the letter 'G', but in an inverted position. Hold your dominant hand down with the palm facing in. Line up your knuckles horizontally, and keep your middle, ring, and pinkie fingers curled in. Extend your index finger and thumb so they stick out parallel to each other, resembling the legs of a person standing."
+    },
+    "r": {
+        "intructions":"Hold up your dominant hand with the palm facing out. Cross your index and middle fingers, intertwining them like vines. Curl the rest of your fingers and your thumb in. This sign resembles the small letter 'r'."
+    },
+    "s": {
+        "intructions":"Form a fist with your dominant hand, keeping the palm facing out. Tuck your thumb in front of your fingers. Be careful to position the thumb correctly to distinguish it from the sign for the letter 'A'."
+    },
+    "t": {
+        "intructions":"Form a fist with your dominant hand, palm facing out. Tuck your thumb in between your index and middle fingers to sign the letter 'T'."
+    },
+    "u": {
+        "intructions":"Sign the letter 'U' by holding up your dominant hand in a fist, facing outward. Extend the index and middle fingers upward while keeping them held together."
+    },
+    "v": {
+        "intructions":"Hold up your dominant hand in a fist, facing outward, with the index and middle fingers extended and spread apart. This sign resembles the letter 'V'."
+    },
+    "w": {
+        "intructions":"Sign the letter 'W' by holding up your dominant hand in a fist, palm facing out, with your index, middle, and ring fingers extended. This formation closely resembles the letter 'W'."
+    },
+    "x": {
+        "intructions":"Sign the letter 'X' by holding up your dominant hand in a fist, palm facing out. Extend your index finger and bend it into a hook shape."
+    },
+    "y": {
+        "intructions":"Sign the letter 'Y' by holding up your dominant hand, palm facing out, with your thumb and pinkie finger extended while the rest of your fingers are curled in."
+    },
+    "z": {
+        "intructions":"Sign the letter 'Z' by holding up the index finger of your dominant hand, palm facing out with the other fingers drawn into a fist, and trace the letter 'Z' in the air using your index finger."
+    }
+}

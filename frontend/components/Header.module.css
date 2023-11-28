@@ -1,0 +1,19 @@
+.header {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    text-align: center;
+    
+}
+
+.headerImage {
+    height: 100%; /* Image takes full height of the header */
+    width: auto; /* Maintain image aspect ratio */
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}

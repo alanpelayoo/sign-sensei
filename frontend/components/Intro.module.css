@@ -1,0 +1,60 @@
+.container {
+    height: 100%;
+    width: 45.1%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    
+}
+
+.container p{
+    font-family: 'Lora', serif;
+    font-size: 1.305rem;
+    line-height: 1.99375rem;
+    letter-spacing: -.22px;
+    font-weight: 350;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.videoC{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Image{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.message{ 
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.buttons{ 
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.buttons button{ 
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .container p{
+        font-size: 1.105rem;
+    }
+    .Image{
+        width: 90%;
+
+    }
+
+}

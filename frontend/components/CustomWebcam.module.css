@@ -1,0 +1,139 @@
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(20px); /* Adjust the blur value as needed */
+    display: flex; /* Added to use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container{
+    width: 800px;
+}
+.icons{
+    text-align: end;
+}
+
+.cam{
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button{
+    all: unset;
+
+}
+
+.indications{
+    max-height: 16vh;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.indications p {
+    font-family: 'Lora', serif;
+    font-size: 1.105rem;
+    margin: 5px;
+}
+
+.indications .counting{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.indications button{
+    all: unset;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for the movement */
+    font-family: 'Lora', serif;
+    font-size: 1.105rem;
+    font-weight: 600;
+    
+}
+
+.indications button:hover {
+    cursor: pointer;
+    transform: translateY(-3px); /* Moves the button up by 5 pixels */
+}
+
+.indications button span{
+    border-bottom: 3px solid black; /* Adjust the thickness and color as needed */
+    
+}
+
+/*Loader*/
+/* Loader Animation */
+.loader {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+.loader div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: black;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.loader div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+.loader div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.loader div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.loader div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+@keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+}
+@keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+}
+/*Loader out */
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 90vw;
+    }
+    .indications{
+        max-height: 25vh;
+    }
+
+}

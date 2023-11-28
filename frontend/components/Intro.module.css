@@ -25,8 +25,8 @@
 }
 
 .Image{
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 240px;
     border-radius: 10px;
 }
 .message{ 

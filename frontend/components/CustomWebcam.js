@@ -20,7 +20,7 @@ function CustomWebcam({letter, onClose}) {
   const [loading, setLoading] = useState(false);
 
   const webcamRef = useRef(null);
-
+  
   const handleReset = () => {
     setCapturedImage(null);
     setButtonR(false);
@@ -39,7 +39,7 @@ function CustomWebcam({letter, onClose}) {
     setInstructionsT("Nice photo 📷 we are processing it!")
     setLoading(true)
     try {
-      const response = await axios.post('http://localhost:8000/predict2', {
+      const response = await axios.post('https://sign-sensei-599cc9371017.herokuapp.com/predict2', {
         //image sent in base64
         letter: letter,
         imageSrc: imageC

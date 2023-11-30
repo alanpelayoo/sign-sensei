@@ -33,7 +33,7 @@
 /* Style specifically for phones */
 @media screen and (max-width: 768px) {
     .footer{
-        height: 10%;
+        display: none;
     }
     .footerImage {
         /* Add your mobile-specific styles here */

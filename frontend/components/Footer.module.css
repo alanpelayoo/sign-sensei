@@ -33,6 +33,7 @@
 /* Style specifically for phones */
 @media screen and (max-width: 768px) {
     .footer{
+        height: 0%;
         display: none;
     }
     .footerImage {

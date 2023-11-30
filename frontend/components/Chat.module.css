@@ -3,6 +3,7 @@
     width: 45.1%;
     display: flex;
     flex-direction: column;
+    
 }
 
 .chat p{
@@ -179,6 +180,10 @@
     .fullHeightDiv {
         padding: 0px 0px;
     }
+    .shortDiv{
+        margin-bottom: 20px;
+    }
+
     .iconDiv{
         background-color: black;
         border-radius: 20px;

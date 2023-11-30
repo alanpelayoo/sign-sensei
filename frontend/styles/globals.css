@@ -66,6 +66,10 @@ scrollbar changes disables default styling and rounding so corners appear square
     height: 100dvh;
   }
 
+  .component-content {
+    height: 90%;
+  }
+
   .video iframe{
     width: 90%;
     height: 60%;

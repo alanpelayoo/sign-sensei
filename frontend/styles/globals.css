@@ -63,8 +63,7 @@ scrollbar changes disables default styling and rounding so corners appear square
 
 @media screen and (max-width: 768px) {
   .main-container{
-
-    height: 100vh;
+    height: 100dvh;
   }
 
   .video iframe{
